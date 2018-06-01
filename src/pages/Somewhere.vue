@@ -1,16 +1,17 @@
 <template>
-<div id="home">
-  <img id="header_img" src="@/assets/home_bg.png"/>
-</div>
+  <div id="some">
+    <img src="@/assets/some_bg.png">
+  </div>
 </template>
- 
+
 <script>
 export default {
+  name: 'Somewhere'
 }
 </script>
 
 <style>
-#header_img {
+#some img{
   max-width: 100%;
 }
 </style>
