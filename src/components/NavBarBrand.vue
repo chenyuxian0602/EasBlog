@@ -1,5 +1,5 @@
 <template>
-  <div id="navbar-brand">
+  <div id="navbar_brand">
     <router-link to="/" tag="a" id="logo_dark" :class="[true ? '' : 'itemnone']">
       <img src="@/assets/logo_dark.png" alt="logo_dark">
     </router-link>
@@ -18,5 +18,8 @@ export default {
 <style>
 .itemnone{
   display: none;
+}
+#navbar_brand {
+  position: absolute;
 }
 </style>

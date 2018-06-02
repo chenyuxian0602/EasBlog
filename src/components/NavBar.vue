@@ -5,7 +5,7 @@
 
   <div id="navbar-container">
     <nav-bar-brand class="col-1 navbar-nav"></nav-bar-brand>
-    <div class="col-6 navbar-nav"></div>
+    <div class="col-4 navbar-nav"></div>
     <nav-bar-item class="col-1 navbar-nav" mes="Somewhere" to="/somewhere" tag="a"></nav-bar-item>
     <nav-bar-item class="col-1 navbar-nav" mes="Only" to="/somewhere" tag="a"></nav-bar-item>
     <nav-bar-item class="col-1 navbar-nav" mes="We" to="/somewhere" tag="a"></nav-bar-item>
@@ -49,6 +49,7 @@ export default {
   height: 70px;
   position: absolute;
   z-index: 9662;
+  text-align: center;
 }
 #navbar_bg{
   width: 100%;

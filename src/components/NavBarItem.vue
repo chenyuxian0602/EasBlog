@@ -1,5 +1,5 @@
 <template>
-  <div id="navbar-items">
+  <div class="navbar_items">
     <router-link :to="to" :tag="tag" class="dark">{{ mes }}</router-link>
   </div>
 </template>
@@ -12,6 +12,10 @@ export default {
 
 
 <style scoped>
+.navbar_items {
+  height: 35px;
+  vertical-align: -webkit-baseline-middle;
+}
 .dark{
   color: #aaa;
   text-decoration-line: none;
@@ -20,4 +24,5 @@ export default {
   color: #fff;
   transition-duration: 400ms;
 }
+
 </style>
