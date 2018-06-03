@@ -14,11 +14,10 @@ export default {
 <style scoped>
 .navbar_items {
   height: 35px;
-  vertical-align: -webkit-baseline-middle;
 }
 .dark{
   color: #aaa;
-  text-decoration-line: none;
+  text-decoration: none;
 }
 .dark:hover {
   color: #fff;

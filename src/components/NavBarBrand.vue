@@ -20,6 +20,11 @@ export default {
   display: none;
 }
 #navbar_brand {
+  height: auto;
+}
+#navbar_brand img{
   position: absolute;
+  width: 8%;
+  top: 14%;
 }
 </style>

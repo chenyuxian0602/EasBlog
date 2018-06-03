@@ -19,7 +19,6 @@ export default {
 <style scoped>
 #home_header_img {
   max-width: 100%;
-  
 }
 
 </style>
