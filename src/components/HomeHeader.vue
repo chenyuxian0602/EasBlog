@@ -12,6 +12,7 @@
 import HomeHeaderDes from '@/components/HomeHeaderDes.vue'
 import HomeheaderRollup from '@/components/HomeheaderRollup.vue'
 export default {
+  name: 'HomeHeader',
   data(){
     return {
       home_header_img_1: home_bg_01,

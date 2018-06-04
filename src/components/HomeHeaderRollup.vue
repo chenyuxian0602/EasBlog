@@ -26,9 +26,9 @@ function rolling(i) {
   }
   setTimeout(function() {
     window.scrollTo(0, 100-i)
-    i -= 5;
+    i -= 2;
     rolling(i)
-  }, 5);
+  }, 2);
 }
 </script>
 

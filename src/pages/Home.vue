@@ -2,14 +2,16 @@
 <div id="home">
   <home-header></home-header>
   <div id="hello">你好啊</div>
+  <blog-list></blog-list>
 </div>
 </template>
  
 <script>
-import HomeHeader from '@/components/HomeHeader.vue'
+import HomeHeader from '@/components/HomeHeader'
+import BlogList from '@/components/BlogList'
 export default {
   components:{
-    HomeHeader
+    HomeHeader, BlogList
   }
 }
 </script>
