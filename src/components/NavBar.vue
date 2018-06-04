@@ -22,8 +22,6 @@ import NavBarItem from '@/components/NavBarItem.vue'
 export default {
   components: {
     NavBarBrand, NavBarItem
-  },
-  watch:{
   }
 }
 
