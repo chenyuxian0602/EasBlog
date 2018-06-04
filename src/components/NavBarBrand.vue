@@ -24,7 +24,7 @@ export default {
 }
 #navbar_brand img{
   position: absolute;
-  width: 8%;
+  width: 80%;
   top: 14%;
 }
 </style>

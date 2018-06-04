@@ -1,8 +1,7 @@
 <template>
 <div id="home">
   <home-header></home-header>
-  <div id="hello">你好啊！</div>
-  <div id="content"></div>
+  <div id="hello">你好啊</div>
 </div>
 </template>
  
@@ -17,13 +16,11 @@ export default {
 
 <style>
 #hello {
-  height: 250px;
-  font-size: 1000%;
-  text-align: center;
+  height: 100%;
+  width: 80%;
+  font-size: 300%;
   padding-top: 1%;
-}
-#content{
-  height: 500px;
-  background-color: #339;
+  border-bottom: #777 solid 3px;
+  margin: 0 auto;
 }
 </style>

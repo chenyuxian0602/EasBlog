@@ -1,6 +1,8 @@
 <template>
   <div id="home_header">
-    <img id="home_header_img" src="@/assets/home_bg.png"/>
+    <img id="home_header_img" src="@/assets/home_bg_01.gif"/>
+    <img id="home_header_img" src="@/assets/home_bg_02.gif"/>
+    <img id="home_header_img" src="@/assets/home_bg_03.gif"/>
     <home-header-des></home-header-des>
     <homeheader-rollup></homeheader-rollup>
   </div>
