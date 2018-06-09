@@ -11,7 +11,7 @@
         <p class="card-text">{{ m_card.abstract }}</p>
         <router-link :to="'/article/' + m_card.title" tag="a">阅读全文</router-link>
         <div slot="footer">
-          <small class="text-muted">最后更新：{{ m_card.update_time }}</small>
+          <small class="text-muted">最后更新：{{ m_card.update_time.substring(0, 19).replace('T', ' ') }}</small>
         </div>
       </b-card>
     </b-card-group>

@@ -27,5 +27,6 @@ body {
   color: #2c3e50;
   position: relative;
   text-align: center;
+  background-color: aliceblue;
 }
 </style>
