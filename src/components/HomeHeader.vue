@@ -1,8 +1,8 @@
 <template>
   <div id="home_header">
-    <img id="home_header_img" :src="home_header_img_1"/>
-    <img id="home_header_img" :src="home_header_img_2"/>
-    <img id="home_header_img" :src="home_header_img_3"/>
+    <img id="home_header_img" src="@/assets/home_bg_01.gif"/>
+    <img id="home_header_img" src="@/assets/home_bg_02.gif"/>
+    <img id="home_header_img" src="@/assets/home_bg_03.gif"/>
     <home-header-des></home-header-des>
     <homeheader-rollup></homeheader-rollup>
   </div>
@@ -13,13 +13,6 @@ import HomeHeaderDes from '@/components/HomeHeaderDes.vue'
 import HomeheaderRollup from '@/components/HomeheaderRollup.vue'
 export default {
   name: 'HomeHeader',
-  data(){
-    return {
-      home_header_img_1: home_bg_01,
-      home_header_img_2: home_bg_02,
-      home_header_img_3: home_bg_03
-    }
-  },
   components: {
     HomeHeaderDes, HomeheaderRollup
   }

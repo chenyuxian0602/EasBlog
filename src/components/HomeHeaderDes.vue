@@ -1,20 +1,14 @@
 <template>
   <div id="home_header_des">
-    <img id="home_header_icon" :src="des_dark"/>
+    <img id="home_header_icon" src="@/assets/des_dark.png"/>
     <router-link to="/contact" tag="a" id="home_header_btn">
-      <img :src="home_header_btn" alt="pickme">
+      <img src="@/assets/home_header_btn.png" alt="pickme">
     </router-link>
   </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      des_dark: des_dark,
-      home_header_btn: home_header_btn
-    }
-  }
 }
 </script>
 
@@ -34,8 +28,7 @@ export default {
 }
 #home_header_btn img{
   width: 80%;
-  /* border: 1px solid white; */
   border-radius: 15px;
-  outline: 13px double white;
+  border: 6px double white;
 }
 </style>
